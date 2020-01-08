@@ -32,7 +32,7 @@ import { useWeb3Injected, useWeb3Network, useEphemeralKey } from '@openzeppelin/
 Get Web3Context with React Hooks inside functional component:
 
 ```javascript
-const injected = useWeb3Injected();
+const web3Context = useWeb3Injected();
 const local = useWeb3Network('http://127.0.0.1:8545');
 ```
 
